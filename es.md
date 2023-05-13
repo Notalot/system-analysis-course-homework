@@ -2,7 +2,7 @@
 
 > [US-010] Все коты-тестировщики (клиенты) автоматически попадают в систему. 
 
-Actor: <System>, event Test.TestPassed
+Actor: \<System\>, event Test.TestPassed
   
 Command: Create account
   
@@ -48,16 +48,16 @@ Command: Find worker
   
 Data: Order + Account public id
   
-Event: Match.WorkerFound
+Event: Order.WorkerFound
   
 
-Actor: event Match.WorkerFound
+Actor: event Order.WorkerFound
   
 Command: Calculate price
   
 Data: Order + Account public id (client) + Account public id (worker)
   
-Event: Match.PriceCalculated
+Event: Order.PriceCalculated
 
 > [US-090] Для прохождения тестирования необходимо оставить заявку на сайте, после чего с котом связывается менеджер и назначает набор тестов, который оценит уровень потенциального кандидата.
 
