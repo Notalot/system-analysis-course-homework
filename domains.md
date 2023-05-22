@@ -43,7 +43,7 @@
 
 ![Bounded contexts](./BoundedContexts.jpg)
 
-| ![New event storming scheme](./ES2.jpg) | ![New data model scheme](./DataModel2.jpg) |
+![New event storming scheme](./ES2.jpg) ![New data model scheme](./DataModel2.jpg)
 
 ## Характеристики
 
