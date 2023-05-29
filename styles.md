@@ -85,7 +85,9 @@
 
 ### Выбираем БД
 
-### Фитнес функции
+![DBs for services](./ServicesWithDB.jpg)
+
+### Фитнес-функции
 
 ## ADR
 
